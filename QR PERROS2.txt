@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información del Perro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center; /* Centra el contenido del contenedor */
+        }
+        h1 {
+            text-align: center;
+        }
+        .info {
+            margin-bottom: 10px;
+        }
+        .info label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Información del Perro</h1>
+        <img src="ruta/de/la/imagen.jpg" alt="Imagen del Perro">
+        <div class="info">
+            <label for="nombre">Nombre del Perro:</label>
+            <span id="nombre">Ruffo</span>
+        </div>
+        <div class="info">
+            <label for="raza">Raza:</label>
+            <span id="raza">Pincher</span>
+        </div>
+        <div class="info">
+            <label for="ano">Año:</label>
+            <span id="ano">7 años</span>
+        </div>
+        <div class="info">
+            <label for="telefono">Número de Celular:</label>
+            <span id="telefono">3166324900</span>
+        </div>
+        <div class="info">
+            <label for="direccion">Dirección:</label>
+            <span id="direccion">Calle 73a #3-04 Tercer Milenio</span>
+        </div>
+    </div>
+</body>
+</html>
+
